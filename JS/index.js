@@ -105,9 +105,9 @@ function login() {
     }, 3000);
   } else {
     for (i = 0; i < users.length; i++) {
-      if (users[0].email.toLowerCase() == emailInput.value.toLowerCase()) {
+      if (users[i].email.toLowerCase() == emailInput.value.toLowerCase()) {
         loginEmailExist = true;
-        if (users[0].password == passwordInput.value) {
+        if (users[i].password == passwordInput.value) {
           localStorage.setItem("user", users[i].name);
           navigateToHome();
         } else {
