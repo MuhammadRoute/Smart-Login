@@ -43,7 +43,7 @@ if (
 }
 
 function navigateToHome() {
-  window.location.pathname = "/Smart-Login/index.html";
+  window.location.href = "index.html";
 }
 
 function navigateToLogin() {
