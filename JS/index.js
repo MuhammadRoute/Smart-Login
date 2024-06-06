@@ -47,11 +47,11 @@ function navigateToHome() {
 }
 
 function navigateToLogin() {
-  window.location.pathname = "/Smart-Login/login.html";
+  window.location.href = "login.html";
 }
 
 function navigateToRegister() {
-  window.location.pathname = "/Smart-Login/register.html";
+  window.location.href = "register.html";
 }
 
 function register() {
